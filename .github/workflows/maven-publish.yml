@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  my-first-job:
+  my_first_job:
     runs-on: ubuntu-latest
 
     steps:
@@ -42,7 +42,5 @@ jobs:
     - name: Build with Maven
       run: "mvn package -DskipTests"
 
-      -name: Test App
+    - name: Test App
       run: "mvn test"
-
-   
